@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header >
+    <h1  style="color: rgb(20, 235, 31);"> CITIZEN BANK INTERNATIONAL</h1>
+    <h5> Kalanki Branch, Kathmandu</h5>
+     </header>
+    <div>
+        <h3 style="border: 2px;"><strong>Online Account Opening FORM</strong> </h3>
+        
+    <form name="form" method="POST" action="submit.php">
+        <p id="p1">Date of Registration:</p>
+                            <br>
+         <input type="date" id="date" name="date">
+                            <br>
+                            <br>
+        
+        <br><br>
+        <div>
+            <iframe src="https://www.citizensbank.com/HomePage.aspx" width="600px" height="450px"></iframe>
+            <br>
+            <br>
+            <label for="fname">
+            First Name:</label>
+             <input type="text" id="fname" placeholder="Enter First Name" name="fname">
+            <label for="lname">Last Name:</label>
+             <input type="text" id="lname" placeholder="Enter Last Name"  name="lname">
+        
+        </div>
+        <br><br>
+        <div>
+            <label>
+            Gender: </label> <br>
+
+            <input type="radio" id="m" name="gender" value="male"> Male <br>
+            <input type="radio" id="f" name="gender" value="female"> Female<br>
+           
+        </div>
+        <br><br>
+       
+        <div>
+        <label for="email">
+        Email:</label> <input type="text" name="email">
+                            <br><br>
+                        </div>
+        <div>
+            <label for="contact">
+            Contact Number:  </label>
+            <input type="number" id="contact"  name="contact">
+           
+        </div>
+        <br><br>
+        <div>
+            <label for="address">
+             Address: </label>
+             <input type="text" id="address"  name="address">
+            
+        </div>
+        <br>
+        <div>
+            <label for="marital">
+             Marital Status: </label>
+             
+             <input type="radio"  name="marital"  id="married" value="Married">Married</option>
+             <input type="radio"  name="marital"  id="sigle" value="unmarried">Unmarried</option>
+             <input type="radio"  name="marital"  id="divore" value="Divorce">Divorce</option>
+
+                
+             
+        </div>
+        <br>
+        <div>
+            <label>
+             Account Type:  </label><br>
+            <input type="radio" id="personal"  name="abtype">Personal <br>
+            <input type="radio" id="businessial"  name="abtype"> Bussinessial <br>
+            
+           
+        </div><br>
+         <div>
+            <label>
+            Bank Account Type:  </label><br>
+            <input type="radio" id="save"  name="atype">Saving Account <br>
+            <input type="radio" id="current"  name="atype">Checking Account <br>
+            <input type="radio" id="mtype"  name="atype">Money market account <br>
+            <input type="radio" id="fdtype"  name="atype">Fixed Deposit <br>
+            
+           
+        </div>
+        <br><br>
+        <div>
+             Branch Of Bank:<br>
+        
+                <input type="radio" id="a" name="branch" value="Kalanki">Kalanki <br>
+                <input type="radio" id="s" name="branch" value="Kalimati">Kalimati <br>
+                <input type="radio" id="d"  name="branch" value="Jamal">Jamal <br>
+                <input type="radio" id="Fb"  name="branch" value="Basundhara">Basundhara<br>
+                <input type="radio" id="t"  name="branch" value="NewRoad">NewRoad <br>
+                <input type="radio" id="r"  name="branch" value="Chabahil">Chabahil <br>
+            
+             
+        </div>
+        <br><br>
+        <div>
+             Account Type :<br>
+             
+                <input type="radio" name="ctype"  id="Minor" value="Minor">Minor</option>
+                <input type="radio" name="ctype"  id="adult" value="Adult">Adult</option>
+                <input type="radio" name="ctype"  id="senior" value="Senior">Senior</option>
+                <input type="radio" name="ctype"  id="Single" value="Single">Single Mother</option>
+                
+              
+                
+            
+        </div>
+        <br>
+        <div>
+            <label for="room">
+        
+            The income of the Individual:</label><br>
+                 <input type="radio" name="income"  id="bussiness" value="bussiness">Bussiness<br>
+                 <input type="radio" name="income"  id="self" value="self">SelfEmployed<br>
+                <input type="radio" name="income"  id="student" value="student">Student<br>
+                <input type="radio" name="income"  id="retired" value="Retired">Retired oofice<br>
+                <input type="radio" name="income"  id="government" value="Government">Government Officer<br>
+                Others<input type="text" id="room"  name="room"> <br>
+        </div>
+        <br><br>
+        <div>
+            <label>Attached Your Document:</label> <br>
+            Citizenship<input type="file" id="idcard"  name="doc1"><br>
+            Address Verification Letter<input type="file" id="letter"  name="doc2"><br>
+            Passport Size Photo<input type="file" id="photo"  name="doc3"><br>
+
+        </div>
+        <br><br>
+        <div>
+             Do you want Following service:<br>
+                
+                <div>
+                    <input type="radio" name="service"  id="obank" value="Mbanking"> Mobile Banking <br>
+                </div>
+                <div>
+                    <input type="radio" name="demat" id="demat" value="Demat"> Demat Account <br>
+                </div>
+                <diV>
+                    <input type="radio" name="locker" id="locker" value="locker"> Locker<br>
+                </div>
+                 
+                
+                
+            </select>
+            
+        </div>
+        <br><br>
+        <input type="submit" value="Submit" name="Submit">
+    </form>   
+    </div>
+</body>
+</html>
